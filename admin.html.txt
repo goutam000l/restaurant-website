@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Admin Panel</h2>
+
+<!-- Add Food -->
+<div class="form-container">
+    <input type="text" id="foodName" placeholder="Food Name">
+    <input type="number" id="foodPrice" placeholder="Price">
+    <button onclick="addFood()">Add Food</button>
+</div>
+
+<!-- Orders -->
+<h3 style="text-align:center;">Orders</h3>
+<div id="orders"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

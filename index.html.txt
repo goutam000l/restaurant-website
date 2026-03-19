@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: url('images/food1.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.search-box {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+/* Form */
+.form-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
